@@ -13,7 +13,7 @@
 body {
     
    background: url(thumb-1920-474157.jpg);
-    
+    min-width: 1170px;
     background-position: center;
     margin: 0 auto;
     padding: 0 auto;
@@ -61,7 +61,7 @@ button {
     border-style: none;
     background-color: transparent;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
   }
@@ -99,7 +99,8 @@ button {
     margin-left: 25px;
 }
 .art_install{
-    width: 220px;
+    width: 100%;
+    max-width: 220px;
     
 
 }
@@ -168,7 +169,8 @@ button {
 .content{
     position: relative;
     display: flex;
-    width: 1000px;
+    width: 100%;
+    max-width: 1000px;
     color: white;
     justify-content: center;
     
@@ -191,6 +193,8 @@ button {
     font-size: 25px;
     padding: 10%;
     position: absolute;
+    
+    
 
 }
 .content2{
@@ -224,8 +228,10 @@ button {
 .v1 img {
     transition: transform 0.3s ease;
     cursor: pointer;
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    max-height: 300px;
   }
   
   .v1 img:hover {
@@ -325,7 +331,8 @@ button {
 }
 
 .img_expert{
-    width: 300px;
+    width: 100%;
+    max-width:300px;
 }
 
 .AboutUS{

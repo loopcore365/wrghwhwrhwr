@@ -1,0 +1,545 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+  }
+
+body {
+    
+   background: url(thumb-1920-474157.jpg);
+    
+    background-position: center;
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  
+    
+    
+}
+
+
+ a{
+    text-decoration: none;
+ }
+
+ .links_worck{
+    color: rgb(255, 255, 255);
+    transition: color 0.3s ease;
+ }
+ .links_worck:hover {
+    color: rgb(233, 214, 106);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.topnavigation{
+    background-color: black;
+    height: 52px;
+}
+
+.topnav{ 
+    display: flex;
+    justify-content: center;
+    padding-top: 17px;   
+}
+
+button {
+    border-style: none;
+    background-color: transparent;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+.button>a{
+    text-decoration: none;
+    color: white;
+    
+}
+  
+  button:hover>a {
+    color: black;
+  }
+
+  button:hover {
+    background-color: white; 
+  }
+  
+.header2{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    gap: 20px;
+    padding-top: 30px;
+    
+}
+.logo_conteainer{
+    
+    padding-left: 35px;
+    display: flex;
+    padding-bottom: 15px;
+     
+}
+.logo_conteainer>p{
+    color: white;
+    margin-left: 25px;
+}
+.art_install{
+    width: 220px;
+    
+
+}
+
+.facebook{
+    display: flex;
+    color: white;
+    gap: 5px;
+    align-items: center;
+
+}
+.facebook>a{
+    color: white;
+
+}
+.facebook_icon{
+    text-decoration: none;
+    color: white;
+    width: 35px;
+    height: 35px;
+
+}
+
+.inst{
+    display: flex;
+    color: white;
+    gap: 5px;
+    align-items: center; 
+    
+}
+.inst>a{
+    color: white;
+}
+
+.inst_icon{
+    text-decoration: none;
+    color: white;
+    width: 35px;
+    height: 35px;
+}
+.phone_number{
+    display: flex;
+    color: white;
+   padding-right: 45px;
+   gap: 10px;
+   
+    
+    
+    
+}
+
+.phone_number>p{
+    
+}
+.topnav>a{
+    text-align: 25px;
+    color:black;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+}
+.maincontent{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.content{
+    position: relative;
+    display: flex;
+    width: 1000px;
+    color: white;
+    justify-content: center;
+    
+
+}
+
+
+
+.car{
+        width: 100%;          
+        max-width: 1400px;    
+        padding-bottom: 6%;     
+      
+}
+
+.text1{
+    background-color: rgba(0, 0, 0, 0.548);
+    margin-top: 150px;
+    color:white;
+    font-size: 25px;
+    padding: 10%;
+    position: absolute;
+
+}
+.content2{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 45px;
+    padding-top: 70px;
+}
+.content3{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 45px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.v1{
+    color: rgb(173, 173, 173);
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    max-width: 300px;
+    border-radius: 8px
+}
+
+
+
+.v1 img {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .v1 img:hover {
+    transform: scale(1.05);
+  }
+  
+
+.contact_baner{
+
+    color: white;
+    display: flex;
+    justify-content:center;
+    
+}
+
+.phone_number2>h5{
+    margin-top: auto;
+    font-size: 35px;
+    
+}
+
+.phone_number{
+    display: flex;
+    align-items: center; 
+    gap:5px;
+}
+.phone_number2{
+    display: flex;
+    justify-content: center;
+    
+}
+.phone_icon{
+    width: 30px;
+    height: 30px;
+}
+
+.email1{
+    display: flex;
+    align-items: center; 
+    gap:5px;
+    color: white;
+    
+}
+.email_icon{
+    width: 30px;
+    height: 30px;
+}
+
+.contact1{
+    margin-top: 25px;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(238, 238, 238, 0.404);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    overflow: auto; /* позволяет скроллить, если модалка больше экрана */
+    z-index: 1000; /* чтобы быть поверх всего */
+}
+
+/* Стиль модального окна */
+.modal {
+    display: flex;
+    flex-direction: column; /* чтобы текст шел вертикально */
+    color: white;
+    background: url(https://images2.alphacoders.com/474/thumb-1920-474157.jpg);
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 800px;
+    max-height: 90vh; /* ограничение по высоте */
+    overflow-y: auto; /* включаем вертикальный скролл */
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Кнопка закрытия */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.con1{
+    color: white;
+}
+
+.img_expert{
+    width: 300px;
+}
+
+.AboutUS{
+    width: 800px;
+}
+
+.aboutus_content{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+.aboutus_content>li{
+    
+    
+    list-style-type: none;
+}
+.f_section{
+    background-color: rgba(0, 0, 0, 0.589);
+}
+
+
+.steering-wheel-repair {
+    color: white;
+    font-family: "Inter", sans-serif;
+    line-height: 1.6;
+  }
+  
+  .steering-wheel-repair h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #f3d34c; /* золотистый акцент */
+  }
+  
+  .steering-wheel-repair h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    color: #e8e8e8;
+    border-left: 4px solid #f3d34c;
+    padding-left: 10px;
+  }
+  
+  .steering-wheel-repair p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  
+  .steering-wheel-repair ul {
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .steering-wheel-repair li {
+    margin-bottom: 0.5rem;
+    position: relative;
+    padding-left: 1rem;
+  }
+  
+  .steering-wheel-repair li::before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    color: #f3d34c;
+    font-size: 0.9rem;
+  }
+  
+  .steering-wheel-repair a {
+    color: #f3d34c;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .steering-wheel-repair a:hover {
+    text-decoration: underline;
+  }
+  
+
+
+  .aboutus_content {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+    background: url(https://images2.alphacoders.com/474/thumb-1920-474157.jpg);
+    
+  }
+
+
+  
+  .aboutus_content .modal-content {
+    background-color: #000000c1;
+    color: white;
+    padding: 40px;
+    border-radius: 12px;
+    max-width: 900px;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    font-family: "Inter", sans-serif;
+    line-height: 1.7;
+  }
+  
+  .aboutus_content h1 {
+    font-size: 2.5rem;
+    color: #f3d34c;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+  
+  .aboutus_content h2 {
+    font-size: 1.5rem;
+    color: #e8e8e8;
+    margin-top: 40px;
+    border-left: 4px solid #f3d34c;
+    padding-left: 12px;
+  }
+  
+  .aboutus_content p {
+    margin: 20px 0;
+    font-size: 1rem;
+  }
+  
+  .aboutus_content ul {
+    padding-left: 20px;
+    margin: 20px 0;
+  }
+  
+  .aboutus_content li {
+    position: relative;
+    margin-bottom: 12px;
+    padding-left: 20px;
+  }
+  
+  .aboutus_content li::before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    color: #f3d34c;
+    font-size: 1rem;
+  }
+  
+  .aboutus_content a {
+    color: #f3d34c;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .aboutus_content a:hover {
+    text-decoration: underline;
+  }
+
+.imgartinst{
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    max-height: 600px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  /* Стили самой кнопки */
+.dropdown > .button {
+    color: white; /* ← белый текст по умолчанию */
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 10px 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Эффект при наведении */
+  .dropdown > .button:hover {
+    background-color: #f3d34c; /* жёлтый фон */
+    color: black; /* чёрный текст при наведении */
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #111;
+    min-width: 220px;
+    z-index: 1;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f3d34c;
+    color: black;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+
+  
